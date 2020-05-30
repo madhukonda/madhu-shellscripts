@@ -1,0 +1,8 @@
+git add .                (this will add all the files to the git repository)
+git add file_name        (this will add specific file to the git repository)
+git status               ( this will display current repository and modified files)
+git commit -m "_____"    (this will add the files to commit area)
+git branch               (displays all branches from local repo)
+git branch -r            (displays all branches in remote repo)
+git branch -D repo_name  ( this will delete the specified branch from local repo)
+git push origin --delete branch_name  ( to delete branch from remote repo)
