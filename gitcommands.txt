@@ -7,3 +7,9 @@ git branch -r            (displays all branches in remote repo)
 git branch -D repo_name  ( this will delete the specified branch from local repo)
 git push origin --delete branch_name  ( to delete branch from remote repo)
 git reset --hard         ( it will delete all local changes forcefully)
+git log  -- it will display history  of commit
+
+#The below are the git stash commands
+git stash --- it will save the changes into separate location
+git stash list
+git stash apply
